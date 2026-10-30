@@ -1,51 +1,44 @@
 # metano-oxido-nitrico
 
-MetaNO Quantum Patch v2: optimización endógena de óxido nítrico.
+# metano-oxido-nitrico  MetaNO Quantum Patch v2: optimización endógena de óxido nítrico.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/19SOW71qUStrsOqhWocY6S_7zjEGuI32s
-- https://drive.google.com/drive/folders/1o2opxpt0nhlK6_-2yLjkHFkvsSWaJHiO
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- `docs/Resumen_Tecnico__MetaNO_Quantum_Patch_v2_-_Sistema_de_Optimizacion_Endogena_de_Oxido_Nitrico.md` ← Resumen Técnico_ MetaNO Quantum Patch v2 - Sistema de Optimización Endógena de Óxido Nítrico.pdf
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+docs/
+liberacion/
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- MetaNO_Quantum_Patch_v2.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1szigLDCin4J9eDx5wpHQlto2jVbgcU-L/view?usp=drivesdk
-- MetaNO_Quantum_Patch_v2_IMPROVED_FULL_3D_SUBTITLES.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1DFdGcoyoL4qn-SimKB1TFzwpoiaxtFWx/view?usp=drivesdk
-- MetaNO_v2_Technical_Blueprint.pdf · pendiente: en Drive · https://drive.google.com/file/d/1SWes_Qhw1ETuAsmv_uAOY7xLtbaaDQBQ/view?usp=drivesdk
-- MetaNO_v2_Technical_Dossier.pdf · pendiente: en Drive · https://drive.google.com/file/d/1y28sGVNXBJfV85hvzHoQxRihj9mvho_1/view?usp=drivesdk
-- Optimización_Inteligente_de_Óxido_Nítrico.png · pendiente: en Drive · https://drive.google.com/file/d/1i7fk4fdgRkaURfMCfqRP3Ml6eL1N8e_D/view?usp=drivesdk
-- Oxido ingles Endogenous_Nitric_.mp4 · pendiente: en Drive · https://drive.google.com/file/d/10ujMsy47Zn8AaAdelr0IprJB7zf07hq6/view?usp=drivesdk
-- Oxido nitrico MetaNO Quantum Patch v2.zip · pendiente: en Drive · https://drive.google.com/file/d/1lHLmMs1uLu6r4hLVruBb8PqIu57OcPDw/view?usp=drivesdk
-- Quantum_Medical_Patch_Technology_Overview.png · pendiente: en Drive · https://drive.google.com/file/d/1921ia11kjP0244i9eWQ1wWMufx8QAFM_/view?usp=drivesdk
-- Uqwas.jpg · pendiente: en Drive · https://drive.google.com/file/d/1Tp9sEnEYwU9aUh6NBG_KHI-8Pz3fZxow/view?usp=drivesdk
-- lc6ml.jpg · pendiente: en Drive · https://drive.google.com/file/d/1k1N2cSDRBC0t0yPL6AEfE7fikkjkxleg/view?usp=drivesdk
-- nHFyB.jpg · pendiente: en Drive · https://drive.google.com/file/d/1LmD5lCVa8pmDHfem-r0lFBnBJ3O-_Kj_/view?usp=drivesdk
-- tgpRD.jpg · pendiente: en Drive · https://drive.google.com/file/d/1KmRxjTkj3ZonYhzM_NTT2sDVVzujOM1g/view?usp=drivesdk
-- xrYWG.jpg · pendiente: en Drive · https://drive.google.com/file/d/1hnVoCiR4TRB2Xm_n1RCT3iZ1E5c_nFil/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
-### Subcarpetas no importadas (pendiente: en Drive)
 
-- Oxido nitrico MetaNO Quantum Patch v2 · https://drive.google.com/drive/folders/1pZXSWE41RJS6TTs3N3G1jzH2XgsfVy9F
+## Uso
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `liberacion/__init__.py`
+- `tests/test_liberacion.py`
 
-## Fuentes NotebookLM
 
-Textos del paquete NotebookLM (Drive `NotebookLM_Fuentes_2026-08-30`) que no existían en este repositorio:
+## Licencia
 
-- [docs/notebooklm/04_METANO.md](docs/notebooklm/04_METANO.md)
-
-## Código ejecutable (liberacion)
-
-`pip install -r requirements.txt && python -m pytest -q`
-
-Ajuste de Korsmeyer-Peppas (n≈0,7 en el documento, transporte anómalo), Higuchi y Arrhenius. Solo vale in vitro.
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
